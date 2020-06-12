@@ -1,22 +1,22 @@
 {
-  "name": "project",
+  "name": "0this",
   "version": "0.0.0",
-  "description": "project description",
+  "description": "0this",
   "main": "src/index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rubixibuc/project.git"
+    "url": "git+https://github.com/rubixibuc/0this.git"
   },
   "keywords": [
-    "project keyword"
+    "0this"
   ],
   "author": "rubixibuc@gmail.com",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/rubixibuc/project/issues"
+    "url": "https://github.com/rubixibuc/0this/issues"
   },
-  "homepage": "https://github.com/rubixibuc/project#readme",
+  "homepage": "https://github.com/rubixibuc/0this#readme",
   "peerDependencies": {},
   "devDependencies": {
     "eslint": "^6.8.0",
