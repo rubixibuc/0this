@@ -1,0 +1,43 @@
+{
+  "name": "project",
+  "version": "0.0.0",
+  "description": "project description",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubixibuc/project.git"
+  },
+  "keywords": [
+    "project keyword"
+  ],
+  "author": "rubixibuc@gmail.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rubixibuc/project/issues"
+  },
+  "homepage": "https://github.com/rubixibuc/project#readme",
+  "peerDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.10",
+    "prettier": "^2.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ],
+    "*.{json,md}": "prettier --write"
+  },
+  "files": [
+    "src/"
+  ]
+}
